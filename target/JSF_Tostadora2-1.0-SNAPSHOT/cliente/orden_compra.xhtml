@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+<h:head>
+   <title>Orden de Compra</title>
+   <link rel="shortcut icon" type="image/png" href="../assets/img/cafe.png"/>
+
+   <style>
+      .titulo{
+         text-align: center;
+         margin-top: 5px;
+         border: 1px;
+
+      }
+
+      .texto{
+         text-align: center;
+         margin-top: 5px;
+         border: 1px;
+         border-color: #000000;
+
+
+      }
+
+      .imagen{
+         text-align: center;
+
+      }
+
+
+
+
+
+      body{
+         background-image: url(https://previews.123rf.com/images/annazubkova/annazubkova1608/annazubkova160800021/62125822-de-fondo-sin-fisuras-con-las-siluetas-de-los-granos-de-caf%C3%A9-patr%C3%B3n-dibujado-a-mano-para-el-dise%C3%B1o-de.jpg);
+      }
+   </style>
+</h:head>
+<h:body>
+   <center>
+      <table width="280" cellspacing="1" cellpadding="3" border="fff 2px solid" bgcolor="#fff" >
+         <div class="titulo" >
+            <font face="courier">
+               <td>
+                  <center> <h1 class="textini">Orden de Compra</h1> </center>
+               </td>
+            </font>
+
+
+         </div>
+      </table>
+
+   </center>
+
+   <!-- Final del titulo-->
+   <div class="imagen">
+      <img src="../assets/img/cafe.png" width="200px" height="200px"></img>
+   </div>
+
+   <!--Inicio del cuerpo -->
+   <center>
+      <table width="280" cellspacing="1" cellpadding="3" border="fff 2px solid" bgcolor="#fff" >
+         <div class="titulo" >
+            <font face="courier">
+               <td>
+                  <center> <h3 class="textini">Gracias por su compra</h3> </center>
+               </td>
+            </font>
+
+
+         </div>
+      </table>
+
+   </center>
+
+   <br/>
+   <!--Inicio de tabla -->
+   <table align="center" border="1" height="60" width="100%" cellpadding="0" cellspacing="0" bgcolor="#fff" >
+
+      <div >
+         <font face="courier">
+            <tr>
+               <td  align="left">
+                  <h4> Id Orden: </h4>
+               </td>
+               <td> </td>
+
+            </tr>
+         </font>
+      </div>
+
+      <div>
+         <font face="courier">
+            <tr>
+               <td  align="left">
+                  <h4>Cantidad de Productos:</h4>
+               </td>
+
+               <td> <!-- Inserte aqui la cantidad de productos --></td>
+
+            </tr>
+         </font>
+      </div>
+      <div>
+         <font face="courier">
+            <tr>
+               <td  align="left">
+                  <h4>Status de la Orden:</h4>
+               </td>
+
+               <td> <!-- Inserte Aqui el status de la orden --></td>
+            </tr>
+         </font>
+      </div>
+
+      <div>
+         <font face="courier">
+            <tr>
+               <td  align="left">
+                  <h4>Precio: </h4>
+               </td>
+               <td> <!-- Inserte Aqui el precio de la Orden --> $</td>
+            </tr>
+         </font>
+      </div>
+
+      <div>
+         <font face="courier">
+            <tr>
+               <td  align="left">
+                  <h4>Total Compra:</h4>
+               </td>
+               <td> <!-- Inserte Aqui el precio total de la compra --></td>
+            </tr>
+         </font>
+      </div>
+   </table>
+   <br/>
+
+   <div class="texto">
+      <h:commandButton value="Finalizar Compra"></h:commandButton>
+
+   </div>
+</h:body>
+</html>
+
